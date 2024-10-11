@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <nav>
+                <div class="nav-logo">
+                    <p class="nav-name">Portfólio</p>
+                    <span>.</span>
+                </div>
+                <div class="nav-menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a href="#home" class="nav-link">Inicio</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#about" class="nav-link">Sobre</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#projects" class="nav-link">Projetos</a>
+                            <div class="circle"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="wrapper"> 
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Giorgia Batista Schmidt</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Eu sou <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>
+                            Desenvolvedora em formação com experiência em projetos de desenvolvimento web e capacitação em TrakSYS. Busco oportunidades para aplicar meus conhecimentos em engenharia de software, além de explorar o campo de Inteligência Artificial.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn" id="downloadBtn">Download CV<i class="uil uil-file-alt"></i></button>
+                    </div>                    
+                    <div class="social_icons">
+                        <div class="icon" onclick="window.open('https://www.linkedin.com/in/giorgia-batista-schmidt-033b30258/', '_blank');" style="cursor: pointer;">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </div>                        
+                        <div class="icon" onclick="window.open('https://github.com/GiigADS2023', '_blank');" style="cursor: pointer;">
+                            <i class="uil uil-github-alt"></i>
+                        </div>                                        
+                    </div>
+                  </div>
+                  <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/imgProfile.png" alt="avatar">
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                  <h1>Sobre mim</h1>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="about-info">
+                          <h3>Introdução</h3>
+                          <p>
+                            Sou Giorgia Batista Schmidt, graduanda em Análise e Desenvolvimento de Sistemas pelo SENAC. 
+                            Atualmente, participo de um programa de capacitação remunerada na Mouts TI, onde estou aprofundando 
+                            meus conhecimentos em TrakSYS, C#/.NET, HTML, CSS e JavaScript. Tenho experiência como estagiária 
+                            na SCI Sistemas Contábeis, onde auxiliei nos processos do setor e implementei sistemas com base em 
+                            lógica e orientação a objetos. Minha formação inclui um curso técnico em Desenvolvimento de Sistemas 
+                            pelo SESI SENAI e diversas certificações em programação, como Lógica de Programação e Modelagem de Dados.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Frontend</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>Bootstrap</span>
+                              <span>JavaScript</span>
+                              <span>Vue</span>
+                              <span>React</span>
+                          </div>
+                      </div>
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Backend</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>Delphi</span>
+                              <span>Java</span>
+                              <span>C#</span>
+                          </div>
+                      </div>
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Database</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>MySQL</span>
+                              <span>PostgreSQL</span>
+                              <span>IBExpert</span>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+             </section>
+
+            <section class="section" id="projects">
+                <h2 class="heading">Projetos</h2>
+                <div class="project-container">
+                    <div class="project-box">
+                        <img src="assets/images/imgLoginWEB.jpg" alt="imgLoginWEB">
+                        <div class="project-layer">
+                            <h4>LoginWEB_Mouts</h4>
+                            <a href="https://giigads2023.github.io/NotaWEB01_Mouts/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/imgFormularioWEB.jpg" alt="imgFormularioWEB">
+                        <div class="project-layer">
+                            <h4>FormularioWEB_Mouts</h4>
+                            <a href="https://giigads2023.github.io/FormularioWEB_Mouts/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/imgSiteWEB.jpg" alt="imgSiteWEB">
+                        <div class="project-layer">
+                            <h4>SiteWEB_Mouts</h4>
+                            <a href="https://giigads2023.github.io/SiteWEB_Mouts/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/imgSperingWEB.jpg" alt="imgSperingWEB">
+                        <div class="project-layer">
+                            <h4>SperingWEB_Mouts</h4>
+                            <a href="https://giigads2023.github.io/SperingWEB_Mouts/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/imgCurriculoWEB.jpg" alt="imgCurriculoWEB">
+                        <div class="project-layer">
+                            <h4>CurriculoWEB_Mouts</h4>
+                            <a href="https://giigads2023.github.io/CurriculoWEB_Mouts/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="top-footer">
+                <p>Giorgia Batista Schmidt .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon" onclick="window.open('https://www.linkedin.com/in/giorgia-batista-schmidt-033b30258/', '_blank');" style="cursor: pointer;">
+                    <i class="uil uil-linkedin-alt"></i>
+                </div>                        
+                <div class="icon" onclick="window.open('https://github.com/GiigADS2023', '_blank');" style="cursor: pointer;">
+                    <i class="uil uil-github-alt"></i>
+                </div>    
+            </div>
+            <div class="bottom-footer">
+                <p>Direitos Autorais &copy; <a href="#home" style="text-decoration: none;">Giorgia Batista Schmidt</a> - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</body>
+</html>
